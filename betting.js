@@ -1,19 +1,24 @@
-/*var odds = document.getElementByID('odds').value;
-var bet = document.getElementByID('betting_amount').value;
+var odds = 1.25 //document.getElementByID('odds').value;
+var bet = 1 //document.getElementByID('betting_amount').value;
 
-odds += odds + 0.1;
+odds += 0.1;
 function testClick() {
-    document.getElementById('start_button').addEventListener('click', function()) = console.log(odds, bet);
+    console.log(odds);
+    console.log(bet);
 }
 
-alert("done");*/
-
-function myFunction() {
-    document.getElementById("demo").style.color = "red";
+function logtest() {
+	//var test = item.getElementsByTagName("h2");
+	console.log(bet);
 }
 
+testClick();
+logtest();
+alert("done");
 
-var Utilities = {
+
+
+/*var Utilities = {
 loadSavedGames : function () {
       var odds = document.getElementByID('odds').value,
       var bet = document.getElementByID('betting_amount').value;
@@ -22,4 +27,4 @@ loadSavedGames : function () {
 
 document.getElementById('start_button').addEventListener('click',function() {
     Utilities.loadSavedGames();
-});
+});*/
